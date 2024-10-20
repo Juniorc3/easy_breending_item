@@ -1,0 +1,32 @@
+{
+  "spec": "type1:ROCK",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 45,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "5x Granite",
+      "items": [
+        {
+          "item": "minecraft:granite",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Stone",
+      "items": [
+        {
+          "item": "minecraft:stone",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

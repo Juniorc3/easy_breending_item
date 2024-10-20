@@ -1,0 +1,32 @@
+{
+  "spec": "type1:DARK",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 45,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "5x Blackstone",
+      "items": [
+        {
+          "item": "minecraft:blackstone",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x Obsidian",
+      "items": [
+        {
+          "item": "minecraft:obsidian",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

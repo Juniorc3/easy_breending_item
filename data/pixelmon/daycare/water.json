@@ -1,0 +1,32 @@
+{
+  "spec": "type1:WATER",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 45,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x Scute",
+      "items": [
+        {
+          "item": "minecraft:scute",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x Water Bucket",
+      "items": [
+        {
+          "item": "minecraft:water_bucket",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}
